@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa001b9-d95f-475f-9f43-ed267c765905" name="Changes" comment="gitignore">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/group/libraryapp/JunitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/group/libraryapp/calculator/JunitCalculatorTest.kt" afterDir="false" />
+    <list default="true" id="3fa001b9-d95f-475f-9f43-ed267c765905" name="Changes" comment="6강. Junit5 사용법과 테스트 코드 리팩토링">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/group/libraryapp/service/UserServiceTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/dto/user/request/UserCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/dto/user/request/UserCreateRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.JunitCalculatorTest">
+  <component name="RunManager" selected="Gradle.UserServiceTest.saveUserTest">
     <configuration name="JunitCalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -80,30 +82,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.group.libraryapp.calculator.JunitCalculatorTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="JunitCalculatorTest.addTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.group.libraryapp.calculator.JunitCalculatorTest.addTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -186,6 +164,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="UserServiceTest.saveUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.group.libraryapp.service.UserServiceTest.saveUserTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="LibraryAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="library-app.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.group.libraryapp.LibraryAppApplication" />
@@ -195,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserServiceTest.saveUserTest" />
         <item itemvalue="Gradle.JunitCalculatorTest" />
         <item itemvalue="Gradle.JunitCalculatorTest.multiplyTest" />
         <item itemvalue="Gradle.JunitCalculatorTest.sizeTest" />
         <item itemvalue="Gradle.JunitCalculatorTest.booleanTest" />
-        <item itemvalue="Gradle.JunitCalculatorTest.addTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +214,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715778555679</updated>
       <workItem from="1715778557459" duration="3374000" />
-      <workItem from="1715866275533" duration="1831000" />
+      <workItem from="1715866275533" duration="3573000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator 테스트 코드 작성">
       <created>1715780802218</created>
@@ -249,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715866377025</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="6강. Junit5 사용법과 테스트 코드 리팩토링">
+      <created>1715868248792</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715868248792</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +268,7 @@
     <MESSAGE value="Calculator 테스트 코드 작성" />
     <MESSAGE value="5강. 사칙연산 계산기의 나눗셈 테스트 작성" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="6강. Junit5 사용법과 테스트 코드 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="6강. Junit5 사용법과 테스트 코드 리팩토링" />
   </component>
 </project>
