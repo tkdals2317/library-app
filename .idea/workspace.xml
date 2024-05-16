@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa001b9-d95f-475f-9f43-ed267c765905" name="Changes" comment="Calculator 테스트 코드 작성">
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/group/libraryapp/calculator/CalculatorTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/group/libraryapp/calculator/CalculatorTest.kt" afterDir="false" />
+    <list default="true" id="3fa001b9-d95f-475f-9f43-ed267c765905" name="Changes" comment="5강. 사칙연산 계산기의 나눗셈 테스트 작성">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="ProjectId" id="2gVMzBr3gOPQATMfRrboOHXDlHs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,6 +48,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "7a9180757339ae4c083f8443ffe3f3ed",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,7 +81,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715778555679</updated>
-      <workItem from="1715778557459" duration="2576000" />
+      <workItem from="1715778557459" duration="3374000" />
+      <workItem from="1715866275533" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator 테스트 코드 작성">
       <created>1715780802218</created>
@@ -98,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715780946229</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5강. 사칙연산 계산기의 나눗셈 테스트 작성">
+      <created>1715781282707</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715781282707</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Calculator 테스트 코드 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator 테스트 코드 작성" />
+    <MESSAGE value="5강. 사칙연산 계산기의 나눗셈 테스트 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="5강. 사칙연산 계산기의 나눗셈 테스트 작성" />
   </component>
 </project>
