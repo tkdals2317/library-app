@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa001b9-d95f-475f-9f43-ed267c765905" name="Changes" comment="6강. Junit5 사용법과 테스트 코드 리팩토링">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/group/libraryapp/service/UserServiceTest.kt" afterDir="false" />
+    <list default="true" id="3fa001b9-d95f-475f-9f43-ed267c765905" name="Changes" comment="7강. Junit5으로 Spring Boot 테스트하기">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/dto/user/request/UserCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/dto/user/request/UserCreateRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +211,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715778555679</updated>
       <workItem from="1715778557459" duration="3374000" />
-      <workItem from="1715866275533" duration="3573000" />
+      <workItem from="1715866275533" duration="6071000" />
     </task>
     <task id="LOCAL-00001" summary="Calculator 테스트 코드 작성">
       <created>1715780802218</created>
@@ -258,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715868248792</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="7강. Junit5으로 Spring Boot 테스트하기">
+      <created>1715872071740</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715872071740</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +273,7 @@
     <MESSAGE value="5강. 사칙연산 계산기의 나눗셈 테스트 작성" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="6강. Junit5 사용법과 테스트 코드 리팩토링" />
-    <option name="LAST_COMMIT_MESSAGE" value="6강. Junit5 사용법과 테스트 코드 리팩토링" />
+    <MESSAGE value="7강. Junit5으로 Spring Boot 테스트하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="7강. Junit5으로 Spring Boot 테스트하기" />
   </component>
 </project>
