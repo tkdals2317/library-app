@@ -43,14 +43,7 @@ class UserService(
 
     @Transactional(readOnly = true)
     fun getUserLoanHistories(): List<UserHistoryResponse> {
-        return userRepository.findAllWithHistories().map { user ->
-            UserHistoryResponse(user.name, user.userLoanHistories.map { history ->
-                BookHistoryResponse(
-                    name = history.bookName,
-                    isReturn = history.status == UserLoanStatus.RETURNED
-                )
-            })
-        }
+        return userRepository.findAllWithHistories().map(UserHistoryResponse::of)
     }
 
 
