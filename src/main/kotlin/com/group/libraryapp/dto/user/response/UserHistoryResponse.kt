@@ -1,0 +1,12 @@
+package com.group.libraryapp.dto.user.response
+
+data class UserHistoryResponse(
+    val name: String, // 유저 이름
+    val books: List<BookHistoryResponse>
+){
+}
+
+data class BookHistoryResponse(
+    val name: String, // 책 이름
+    val isReturn: Boolean
+)
